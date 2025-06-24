@@ -1,0 +1,100 @@
+.first_screen_bk {
+    width: 100%;
+    height: 102vw;
+}
+
+.pechatka {
+    display: flex;
+    width: 100%;
+    height: 35%;
+    margin-top: 3vw;
+    margin-left: -2vw;
+}
+
+.kniga {
+    margin-top: 3vw;
+    margin-left: 35vw;
+    position: absolute;
+    width: 32vw;
+    height: 30vw;
+    background-image: url(../img/kniga.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.zadok {
+    margin-top: 3vw;
+    width: 77vw;
+    height: 40.5vw;
+    background-image: url(../img/zadok.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 13vw;
+}
+
+  /* Базовая настройка */
+.slider-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.dots-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.dot.active {
+    background: white;
+}

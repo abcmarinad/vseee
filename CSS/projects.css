@@ -1,0 +1,280 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    display: block;
+    background-color: #198FFC;
+    height: auto;
+}
+
+.first_screen_pr {
+    width: 100vw;
+    height: 102vw;
+    overflow: hidden;
+}
+
+.reclama {
+    width: 100%;
+    height: 63vw;
+    display: flex;
+    margin-top: 4vw;
+}
+
+.jilhouse {
+    width: 30%;
+    height: 58.4vw;
+    background-color: #F97101;
+    font-family: "FormaDJRCyrillicDisplay-Regular-Testing";
+    font-size: 2.6vw;
+    padding: 2.1vw 2vw 2.49vw;
+    line-height: 1.2;
+}
+
+
+.pinkconst {
+    width: 34vw;
+    height: 44vw;
+    background-image: url(../img/pinkconst.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -2vw;
+    margin-top: 7.5vw;
+    animation: stretch 2s infinite ease-in-out;
+    transform-origin: center bottom; 
+    animation: stretch 2s infinite ease-in-out;
+}
+
+
+    @keyframes stretch {
+      0%, 100% {
+        transform: scaleY(1); /* Исходный размер */
+      }
+      50% {
+        transform: scaleY(1.43); /* Растягиваем в 2 раза по вертикали */
+      }
+    }
+
+
+.rayon {
+    width: 60%;
+    height: 63vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.sverhu {
+    margin-top: -0.9vw;
+    margin-left: -0.2vw;
+    width: 110%;
+    height: 34vw;
+    background-image: url(../img/sverhu.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.know_more {
+    margin: 29vw 2vw;
+}
+
+.domaplus {
+    position: relative;
+    width: 110%;
+    height: 30vw;
+    background-color: black;
+}
+
+.greendom {
+    margin-top: 3vw;
+    margin-left: 17vw;
+    width: 30vw;
+    height: 23vw;
+    background-image: url(../img/greendom.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textic1,
+.textic2 {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    margin-left: 2vw;
+    color: #FCFF39;
+    font-family: "FormaDJRCyrillicDisplay-Regular-Testing";
+    font-size: 1.3vw;
+}
+
+.textic1 {
+    margin-top: -24vw;
+    gap: 41vw;
+}
+
+.textic2 {
+    margin-top: 22vw;
+    gap: 45vw;
+}
+
+
+.typing-animation {
+    display: inline-block;
+    border-right: 2px solid #000;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 1.2em;
+    line-height: 1.2em;
+    vertical-align: top;
+    margin: 0;
+    padding-right: 3px;
+}
+
+.textic1,
+.textic2 {
+    width: 100%;
+    min-height: 1.2em;
+    position: relative;
+}
+
+
+.plusik {
+    margin-top: -32.8vw;
+    margin-left: 28vw;
+    width: 8vw;
+    height: 6vw;
+    background-image: url(../img/plusik.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yelfig {
+    margin-top: 2.9vw;
+    width: 45vw;
+    height: 30vw;
+    background-image: url(../img/yelfig.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #000;
+    }
+}
+
+.pokupka {
+    display: flex;
+    width: 140%;
+    height: 10vw;
+    margin-top: 21vw;
+}
+
+.houses {
+    width: 40vw;
+    height: 10vw;
+    display: flex;
+}
+
+
+
+
+.firstdom,
+.secondom,
+.finaldom,
+.krestik {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 2vw;
+}
+
+.finaldom, .krestik {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: all 0.4s ease-out;
+  pointer-events: none; /* Чтобы нельзя было взаимодействовать с скрытыми элементами */
+}
+
+.firstdom {
+    width: 17vw;
+    height: 9vw;
+    background-image: url(../img/firstdom.svg);
+}
+
+.secondom {
+    width: 17vw;
+    height: 10vw;
+    background-image: url(../img/secondom.svg);
+}
+
+.finaldom {
+    display: flex;
+    width: 13vw;
+    height: 10vw;
+    background-image: url(../img/finaldom.svg);
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease-out;
+}
+.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto; /* Возвращаем возможность взаимодействия */
+}
+
+.finaldom.show {
+    opacity: 1;
+    width: 13vw;
+    height: 10vw;
+    margin-top: 0vw;
+}
+
+.krestik {
+    width: 5vw;
+    height: 4.4vw;
+    background-image: url(../img/krestik.svg);
+    margin-top: -10vw;
+    margin-left: 10vw;
+
+}
+
+
+
+.strela,
+.basket {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.strela {
+    margin-left: 3vw;
+    margin-top: 4vw;
+    width: 41vw;
+    height: 3vw;
+    background-image: url(../img/strela.svg);
+    animation: goright 2s infinite ease-in-out;
+    transform-origin: left center;
+}
+
+.basket {
+    margin-left: 3vw;
+    margin-top: 0vw;
+    width: 9vw;
+    height: 9vw;
+    background-image: url(../img/basket.svg);
+}
+
+
+
+@keyframes goright {
+  0%, 100% {
+    transform: scaleX(0.8); /* Исходный размер */
+  }
+  50% {
+    transform: scaleX(1); /* Растягиваем в 2 раза по вертикали */
+  }
+}
+

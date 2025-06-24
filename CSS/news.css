@@ -1,0 +1,76 @@
+.first_screen_nw {
+    width: 100vw;
+    height: 102vw;
+    overflow: hidden;
+}
+
+.ryadi {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4vw;
+    width: 100%;
+    height: 46vw;
+    background-color: black;
+    gap: 2vw;
+}
+
+.r1 {
+    margin-top: 2vw;
+    margin-left: 2vw;
+    width: 51vw;
+    height: 36vw;
+    background-image: url(../img/stolb.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.r2 {
+    width: 42vw;
+    height: 36vw;
+    margin-top: 2vw;
+    background-image: url(../img/dinozavr.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.events {
+    font-family: 'FormaDJRCyrillicDisplay-Regular-Testing';
+    font-size: 2.6vw;
+    color: #FCFF39;
+    text-align: center;
+    margin: -3vw 27vw;
+}
+
+.stroitel {
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    gap: 40vw;
+    background-color: #198FFC;
+}
+
+.kamni {
+    width: 30vw;
+    height: 50vw;
+    background-image: url(../img/kamni.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chel {
+    position: absolute;
+    width: 74vw;
+    height: 48vw;
+    left: 19.4vw;
+    background-image: url(../img/stroitel.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hrulkovo {
+    width: 30vw;
+    height: 50vw;
+    background-image: url(../img/hrulkovo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
